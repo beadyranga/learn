@@ -11,12 +11,12 @@ public class LearnApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(LearnApplication.class, args);
-
-		GameRunner gameRunner = context.getBean(GameRunner.class);
-//		MarioGame game = new MarioGame();
-
-//		GameRunner gameRunner = new GameRunner(game);
-		gameRunner.runGame();
+//
+//		GameRunner gameRunner = context.getBean(GameRunner.class);
+////		MarioGame game = new MarioGame();
+//
+////		GameRunner gameRunner = new GameRunner(game);
+//		gameRunner.runGame();
 
 	}
 
